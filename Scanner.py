@@ -18,7 +18,7 @@ def myscanner(cible,ports):
         else:
             print("Port fermé: ",port)
 
-# on va scanner le site web de la NASA
+# on va scanner un site web
 cible = "" # ici on met le site à scanner
 ports = [80,443,21,22,23,25,53,110,443,3389,8080] # on va scanner les ports les plus connus
 myscanner(cible,ports) # on lance le scanner
